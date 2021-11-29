@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><% Response.Write(HttpContext.Current.Session["Company"].ToString());%>  - Login</title>
+<%--   // <title><% Response.Write(HttpContext.Current.Session["Company"].ToString());%>  - Login</title>--%>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,8 +34,8 @@
         <div class="card-body" id ="cardspin">
           <form novalidate="" action="#" method="POST" id="myForm" autocomplete="off">
             <div class="form-group">
-              <label for="inputEmail">USERNAME</label>
-              <input class="form-control" id="inputEmail" name="username" style="text-transform:uppercase"  type="text" aria-describedby="emailHelp" placeholder="Enter UserName" required >
+              <label for="inputEmail">Username</label>
+              <input class="form-control" id="inputEmail" name="username"  type="text" aria-describedby="emailHelp" placeholder="Enter Username" required >
               <div class="valid-feedback">Looks good!</div>
               <div class="invalid-feedback">UserName must be provided</div>
             </div>
@@ -50,7 +50,7 @@
           </form>
           <div class="text-center">
               <br>
-            <%--<a class="d-block small mt-3" href ="#">Register an Account</a>--%>
+            <a class="d-block small mt-3" href ="Register.aspx">Register an Account</a>
             <a class="d-block small" href ="ForgotPassword.aspx">Forgot Password?</a>
              <a class="d-block small derroh" href ="http://brightsofttech.co.ke/" target ="_blank">Powered By JKM Solutions</a>
           </div>
@@ -75,7 +75,7 @@
     <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
     <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
     <script>
-      $.backstretch("images/image.jpg", {speed: 500});
+      $.backstretch("images/image.jpg", {speed: 1000});
    </script>
     <script>        
         $(document).ready(function () {
