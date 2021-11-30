@@ -76,7 +76,7 @@
     <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
     <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
     <script>
-      $.backstretch("images/image.jpg", {speed: 1000});
+      $.backstretch("images/Bg.jpg", {speed: 1000});
    </script>
     <script>        
         $(document).ready(function () {
@@ -205,4 +205,5 @@
     </script>
   </body>
 
+</html>
 </html>

@@ -73,7 +73,7 @@
     <script src="js/jquery.toast.js"></script>
     <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
     <script>
-        $.backstretch("images/image.jpg", { speed: 500 });
+        $.backstretch("images/Bg.jpg", { speed: 500 });
    </script>
        <script>        
            $(document).ready(function () {
