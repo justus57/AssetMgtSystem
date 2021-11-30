@@ -53,6 +53,12 @@
                 <label for="inputEmail">Email address</label>
               </div>
             </div>
+              <div class="form-group">
+              <div class="form-label-group">
+                <input type="Text" id="Username" class="form-control" placeholder="Username" required="required">
+                <label for="Username">Username</label>
+              </div>
+            </div>
             <div class="form-group">
               <div class="form-row">
                 <div class="col-md-6">
@@ -73,7 +79,7 @@
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="Login.aspx">Login Page</a>
-            <a class="d-block small" href="ForgotPassword.spx">Forgot Password?</a>
+        <%--    <a class="d-block small" href="ForgotPassword.aspx">Forgot Password?</a>--%>
           </div>
         </div>
       </div>
@@ -91,7 +97,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
     <script src="js/jquery.toast.js"></script>
     <script>
-      $.backstretch("images/image.jpg", {speed: 500});
+      $.backstretch("images/image.jpg", {speed: 1000});
     </script>
   </body>
 
